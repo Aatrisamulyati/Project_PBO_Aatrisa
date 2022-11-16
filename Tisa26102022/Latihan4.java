@@ -3,16 +3,15 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package Tisa04112022;
+package Tisa26102022;
 
 /**
  *
  * @author hp
  */
-public class Latihan3 {
+public class Latihan4 {
     public static void main(String[] args) {
-    
-    String alamat[][] = {{"Florence", "735-1234", "Manila"}, {"Joyce", "983-3333", "Quezon City"},{"Becca", "456-3322", "Manila"}};
+     String alamat[][] = {{"Florence", "735-1234", "Manila"}, {"Joyce", "983-3333", "Quezon City"},{"Becca", "456-3322", "Manila"}};
         int i=0;
         do{
             System.out.println("name    :" + alamat[i][0] );
@@ -22,7 +21,6 @@ public class Latihan3 {
             i++;
         }
         while (i<3);
+        }
     }
-}
-
 
